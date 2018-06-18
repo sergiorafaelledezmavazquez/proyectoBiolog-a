@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>kenia</title>
+                <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script language="JavaScript">
+            var synth = window.speechSynthesis; 
+                var voz = synth.getVoices();
+            function hablar(frase){
+                var utterThis = new SpeechSynthesisUtterance(frase);///AQUI SE lE CAMBIA
+            utterThis.voice= voz[04];
+            utterThis.pitch = 1
+            utterThis.rate = 1
+           synth.speak(utterThis);
+            }
+        </script>
+    </head>    
+    <body onload="hablar('Kentia. Interior. Esta planta es una de las más cultivadas en todo el mundo tanto para interior como para exterior. En exterior puede alcanzar los 3 metros de altura y requiere de espacios amplios. Sus hojas están compuestas por folíolos, con una longitud de entre 20 y 50 centímetros. Es de color verde. Clima. Cálido. Aunque se adapta muy bien a cualquier tipo de clima, siempre y cuando no sea muy frío. Exposición.Soleada ; si está en exterior. o semisombra ;si está en interior y evitar el aire demasiado seco. Riego. 2 veces por semana en verano y 1 ó 2 veces al mes en invierno. En verano, pulverizar con agua a diario, sobre todo si la temperatura es elevada. Tiene un crecimiento muy lento. Cambio de maceta. Hay que extremar las precauciones para el transplante, ya que es una planta muy delicada. Especialmente con el cepellón, ya que al romperse podríamos matar a la planta. Plagas y enfermedades. Cochinillas, araña roja y trips son las plagas más comunes, que aparecen durante la primavera y el verano. Esta planta puede ser atacada por diversos hongos como el Cylindrocladium o el Stigmina.')">
+        <div class="container">    
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="GIF/kentia.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h1 class="card-title">KENTIA</h1>
+                       <h3>Interior</h3>                       
+                        <p>Esta planta es una de las más cultivadas en todo el mundo tanto para interior como para exterior. En exterior puede alcanzar los 3 metros de altura y requiere de espacios amplios. Sus hojas están compuestas por folíolos, con una longitud de entre 20 y 50 centímetros. Es de color verde.
+
+</p>
+
+                        <h3>Clima</h3>
+                        <p>Cálido. Aunque se adapta muy bien a cualquier tipo de clima, siempre y cuando no sea muy frío.</p>
+
+                        <h3>Exposición</h3>
+                        <p>Soleada (si está en exterior) o semisombra (si está en interior) y evitar el aire demasiado seco.</p>
+
+                        <h3>Riego</h3>
+                        <p>2 veces por semana en verano y 1 ó 2 veces al mes en invierno. En verano, pulverizar con agua a diario, sobre todo si la temperatura es elevada. Tiene un crecimiento muy lento
+                        </p>
+                          <h3>Cambio de maceta</h3>
+                        <p>Hay que extremar las precauciones para el transplante, ya que es una planta muy delicada. Especialmente con el cepellón, ya que al romperse podríamos matar a la planta.</p>
+                        <h3>Plagas y enfermedades</h3>
+                        <p>Cochinillas, araña roja y trips son las plagas más comunes, que aparecen durante la primavera y el verano. Esta planta puede ser atacada por diversos hongos como el Cylindrocladium o el Stigmina.
+
+
+</p>
+                      </div> 
+                    </div>
+                
+                </div> <!--columnas 12-->            
+            </div>   <!--row-->            
+        </div> <!--container-->
+    </body>
+</html>      

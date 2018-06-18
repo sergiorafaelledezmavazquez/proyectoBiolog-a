@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.raafelledezma.pruebapuglins"
+    version   = "1.0.0">
+
+<name>Curso arreglado</name>
+
+<description>
+Descripción de plantes
+</description>
+
+<author href="https://www.rafaelledezmavazquez.com" email="sergior_ledezma_vazquez@hotmail.com">
+Samuel Jesus
+</author>
+
+<gap:plugin name="org.apache.cordova.device"/>
+<gap:plugin name="org.apache.cordova.dialogs" />
+
+
+<preference name="phonegap-version" value="3.3.0" />
+</widget>
+
+
+
