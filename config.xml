@@ -18,7 +18,8 @@ Samuel Jesus
 <gap:plugin name="org.apache.cordova.dialogs" />
 
 
-<preference name="phonegap-version" value="6.0.0" />
+<preference name="phonegap-version" value="cli-6.5.0" />
+
 </widget>
 
 
