@@ -14,8 +14,7 @@ Descripción de plantes
 Samuel Jesus
 </author>
 
-<gap:plugin name="org.apache.cordova.device"/>
-<gap:plugin name="org.apache.cordova.dialogs" />
+
 
 
 <preference name="phonegap-version" value="cli-6.5.0" />
